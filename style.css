@@ -728,7 +728,7 @@ clip-path: polygon(100% 0, 100% 100%, 45% 100%, 0 56%, 0 1%);
   width: 100%;
   padding: 0;
   margin:40px 0; 
-  background-image: url("/images/water-tree.jpg");
+  background-image: url("images/water-tree.jpg");
 /* position: sticky;   */
 color: white;
 background-repeat: no-repeat;
