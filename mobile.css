@@ -1,0 +1,126 @@
+
+@media screen and (max-width:767px) {
+  img.wonder-tout-header {
+  display: none;
+}
+
+.time-and-contact{
+  display: none;
+  width: 100%;
+}
+
+.trible-images-sectinon {
+  width: 100%;
+}
+
+.three-image {
+  display: block;
+  height: auto;
+}
+
+img.holiday {
+  height: auto;
+}
+
+.container-width {
+  display: block;
+}
+
+.container-width {
+  width: 100%;
+}
+
+h1 {}
+
+h1 {}
+
+.content-inside {
+  height: auto;
+}
+
+.footer {
+  /* display: block; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container-three-box {
+  display: block;
+}
+.container.flex.benidrom-spain {
+  display: block;
+}
+.box {
+  margin: 0;
+}
+.footer {
+    display: block;
+    text-align: center;
+}
+
+.privacy-police {
+    display: block;
+}
+
+.section-ft-three {
+    display: block;
+}
+
+.section-ft-three {}
+
+.section-ft-three {
+    padding-right: 0;
+    position: static;
+}
+
+
+.bar{
+  width: 28px;
+  height: 4px;
+  background-color: rgb(240, 240, 240);
+  margin: 4px 0;
+}
+
+
+}
+
+
+
+@media only screen and (max-width:800px) {
+    .menubar-mobile{
+        display: block;
+        padding: 10px;
+    }
+    ul.social-media {
+        display: none;
+    }
+    .menulist{
+        display: block;
+        text-align: center;
+    }
+    ul.ulmegamenu {
+        display: none;
+    }
+
+
+
+    .slider-1 .image{
+        width: 100vw;
+        object-fit: cover;
+        height: 100vh;
+      }
+      .footer-end button{
+        display: none;
+      }
+      .holiday-events {
+       
+        left: 30%;
+      }
+      .tab-button {
+       
+        padding: 10px;
+      }
+      .active{
+        display: block !important;
+      }
+}

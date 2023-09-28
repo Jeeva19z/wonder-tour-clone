@@ -1,0 +1,863 @@
+
+/* pre set up something  */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+  }
+ 
+  a , li i{
+    cursor: pointer;
+    
+  }
+  .time-and-phonenumber a{
+color: black;
+text-decoration: none;
+
+  }
+/* --------------------------------------------------------------------------------------------------- */
+
+  /* header first banner START  */
+  /* html{
+    scroll-behavior: smooth;
+  } */
+
+ 
+  .wonder-tout-header{
+  
+    width: 100%;
+  
+  }
+  .tour-images{
+    width: 70%;
+  } 
+
+  /* header first banner end  */
+
+  /* --------------------------------------------------------------------------------------------------- */
+
+
+  /* MEGA menu banner START */
+
+  .wonder-free>img{
+    cursor: pointer;
+  }
+  
+  .scond-banner-wonder-tour{
+    padding: 14px 40px;
+  }
+  .banner-button{
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(7, 179, 87);
+    font-size: 15px;
+  
+  
+  }
+  .scond-banner-wonder-tour , .time-and-contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  .time-and-phonenumber{
+    font-size: 15px;
+    padding: 10px 29px;
+  }
+  
+  .scond-banner-wonder-tour{
+  background-color: #e4f7f5;
+  }
+  .ulmegamenu li {
+  list-style-type: none;
+  padding: 20px 0;
+  color: white;
+  margin: 0 20px;
+  
+  }
+  .social-media li{
+    list-style-type: none;
+  padding: 10px;
+  color: white;
+
+  }
+  .ulmegamenu li a{
+    text-decoration: none;
+  color:white;
+  
+  }
+  .social-media li i{
+    border-radius: 50%;
+    background-color: #4c6867;
+    padding: 10px;
+
+  }
+  .menulist , .ulmegamenu, .social-media{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  .menulist{
+    background-color:#162e44;
+  }
+  li i{
+    color: white;
+  }
+  p>i , .fa-dailer-clr{
+    color: green;
+    font-size: 20px;
+  }
+
+  .icon-hover-color-change:hover{
+    color: pink;
+    }
+
+  /* MEGA menu banner END */
+
+  /* --------------------------------------------------------------------------------------------------- */
+
+/* Button hover color effect START */
+
+  .banner-button{
+    cursor: pointer;
+    position: relative;
+    }
+  .span-color{
+
+    position: absolute;
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: 0.4s ease-in;
+   
+
+  }
+  .banner-button:hover .span-color{
+  width: 100%;
+  background-color: lightgreen;
+  z-index: -1;
+  border-radius: 8px;
+ 
+  }
+  .banner-button:hover{
+    color: black;
+    z-index: 2;
+    border:2px solid  #d36e45;
+  border-radius: 10px;
+
+   
+
+
+  }
+/* Button hover color effect END */
+
+  /* --------------------------------------------------------------------------------------------------- */
+
+
+ 
+
+  /* maga menu hover effect -HOME ABOUT TYPOGRAPHY CONTACT US  START*/
+
+  .menulistofli{
+    position: relative;
+    cursor: pointer;
+  }
+ 
+  .menulistofli::after{
+    content: "";
+    position: absolute;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s;  
+   
+  }
+  .menulistofli:hover::after{
+    background-color: rgb(121, 247, 93);
+    width: 100%;
+    bottom: 10px;
+ 
+  }
+   /* a:hover{
+    color: rgb(121, 247, 93) !important;
+
+  } */
+    
+   /* issue will fix hover time not color change perfecly because the a one hover that time color change not li  */
+ 
+  
+  
+  
+  .image{
+    width: 100%;
+  }
+  .slider-1{
+    position: relative;
+  }
+  .slider-text-1{
+    position: absolute;
+    top: 0;
+  }
+  .slider-text-1{
+    padding:20px 20px 40px 10px;
+    color: whitesmoke;
+  }
+  .slider-text-1 p{
+    margin-top: 50px;
+  }
+  .slider-text-1 p ,h1 {
+    padding: 20px;
+  }
+  .slider-button{
+    padding: 14px 28px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    margin-left: 20px;
+   
+  }
+ 
+
+/* --------------------------------------------------------------------------------------------------- */
+                      /* Transition the content START  */
+  .enjoy-the-world{
+  
+    transform: translateX(-100vw);
+    
+  }
+  .enjoy-the-worldsecond{
+    transform: translateY(100vw);
+  
+  }
+  .enjoy-the-worldthird{
+    transform: translateX(100vw);
+  }
+  
+  .loaded{
+    transform: translateX(0);
+    transition:1s ease;
+  }
+  .loadedscond{
+    transition:1s ease;
+    transform: translateX(0);
+  
+  }
+  .loadedsthird{
+    
+    transition:0.8s ease;
+    transform: translateX(0);
+  
+  }
+                      /* Transition the content END  */
+
+/* --------------------------------------------------------------------------------------------------- */
+
+  /* facebook twitter and insta hover effect START  */
+  .icons-hover-megamenu{
+
+
+    transform: translateY(0);
+    transition: 0.3s linear;
+
+
+    
+  }
+  .icons-hover-megamenu:hover{
+    transform: translateY(-7px);
+  }
+   .clr-chnage-fa-icon:hover  {
+    background-color: yellowgreen;
+   }
+
+
+  /* facebook twitter and insta hover effect END  */
+/* --------------------------------------------------------------------------------------------------- */
+
+    /* popup box css start */
+
+  .date-box{
+    position: relative;
+    border: 2px solid gray;
+    width: 60%;
+    margin:115px auto;
+    text-align: center;
+    margin-top: 250px;
+    background-color: whitesmoke;
+
+  }
+  .x-close{
+    font-size: 22px;
+    font-weight: 700;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin:0 5px;
+    padding: 10px;
+    cursor: pointer;
+    /* border: 1px solid black;
+    border-radius: 50%; */
+  }
+  .day-and-date{
+    margin-top: 20px;
+    color: rgb(59, 193, 54);
+    padding: 20px;
+   
+   
+  }
+  .popup{
+    background-color: rgb(79, 75, 75,0.6);
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+
+  }
+  .shown{
+    cursor: pointer;
+  }
+  
+    /* popup box css END */
+
+/* --------------------------------------------------------------------------------------------------- */
+
+/* three image section style START */
+.section-two{
+  background-color: rgb(200, 207, 200,0.9);
+}
+.three-image{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  top: -50px;
+ 
+}
+.trible-images-sectinon{
+  width: 330px;
+  overflow: hidden;
+  position: relative;
+
+}
+.holiday{
+  width: 100%;
+  height: 400px;
+  transition: 0.4s;
+
+}
+.holiday:hover{
+ transform: scale(1.1);
+
+}
+.holiday-events{
+ position: absolute;
+ color: rgb(255, 254, 254,0.8);
+ bottom: 70px;
+ left: 70px;
+}
+.tour-para{
+ 
+text-align: center;
+  padding: 20px 10px
+}
+.clr-a{
+  color: rgb(131, 131, 234) ;
+  text-decoration: none;
+}
+.tour-para:hover{
+  transform: translateX(10px);
+  
+}
+.move:hover .clr-a{
+color: blue;
+}
+
+/* arrow move css START */
+
+
+/* arrow move css END */
+.othertour{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.arrow{
+  display: flex;
+  width: 90px;
+  flex-direction: row;
+ 
+}
+.move{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.firstsymbol{
+
+  width: 15px;
+  height: 10px;
+  margin: 7px 0;
+  background-color: black;
+  transition: 0.6s ease-out;
+
+
+}
+.secondsymbol{
+  width: 15px;
+  height: 25px;
+  background-color: black;
+  clip-path: polygon(0 10px, calc(100% - 15px) 10px, calc(100% - 15px) 0, 100% 50%, calc(100% - 15px) 100%, calc(100% - 15px) calc(100% - 10px), 0 calc(100% - 10px));
+
+  
+}
+.move:hover .firstsymbol{
+  flex-grow: 1;
+}
+
+/* three image section style END */
+
+/* --------------------------------------------------------------------------------------------------- */
+
+/* third section of discover of horizons */
+
+.container-width{
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: auto;
+}
+.row{
+  flex: 1;
+  padding: 10px;
+}
+.discover-new-horizons-imges{
+  width: 100%;
+}
+.new-horizons-right{
+  padding: 20px;
+  background-color: red;
+  text-align: left;
+
+ 
+}
+.new-horizons-right h1{
+  text-align: left;
+  padding-left: 0;
+
+}
+ul li{
+  list-style-type: none;
+}
+.dflex{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+
+/* --------------------------------------------------------------------------------------------------- */
+
+/* tab section style  START */
+
+.tab-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Tab Buttons */
+.tab-button {
+  background-color: #ccc;
+  /* border: 1px solid #aaa; */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.tab-button:hover {
+  background-color: #ddd;
+}
+
+/* Active Tab Button */
+.active-tab {
+  background-color: #fff;
+  border-bottom: 1px solid #fff;
+  
+}
+
+/* Tab Content */
+.tab-content {
+  display: none;
+  padding: 10px 5PX;
+  width: 100%;
+  text-align: left;
+}
+
+/* Show active tab content */
+.active-content {
+  display: block;
+}
+
+.tab-whole-colum{
+  padding: 20px;
+  margin: 20px;
+
+}
+.get-in-touch{
+  color: white;
+background-color: greenyellow;
+border: none;
+padding: 20px;
+margin: 0 15px;
+transition: 0.8s;
+cursor: pointer;
+
+}
+.get-in-touch:hover{
+background-color: transparent;
+color: black;
+border: 1px solid black;
+transform: scaleX(1.1);
+
+}
+
+
+.read-more{
+  background-color: transparent;
+color: black;
+border: 1px solid black;
+padding: 20px;
+transition: 0.4s;
+cursor: pointer;
+}
+.read-more:hover{
+  color: white;
+background-color: greenyellow;
+border: none;
+transform: scaleX(1.1);
+
+
+}
+.tab-whole-colum>div>p{
+padding: 10px 0;
+}
+.third-section{
+  background: rgba(96, 225, 235,.2);
+}
+.discover-new-horizons-imges{
+  transition: 0.5s;
+  }
+  .third-section:hover .discover-new-horizons-imges{
+transform: scaleX(-1);
+}
+/* tab section style  END */
+/* --------------------------------------------------------------------------------------------------- */
+
+
+/* BOX hover -4 section style  START */
+/* --------------------------------------------------------------------------------------------------- */
+.four-wrapper>h2{
+  text-align: center;
+  margin:40px 0;
+}
+.container-three-box{
+  width: 100%;
+  display: flex;
+  align-items: center;
+justify-content: space-between;
+padding: 1% 2% ;
+}
+/* .check{
+
+overflow: hidden;
+position: relative;
+} */
+.box{
+  padding: 5px;
+box-sizing: border-box;
+border: 10px solid rgba(101, 99, 99, 0.1);
+display: flex;
+flex: 1;
+height: 170px;
+transition: .4s ease-in-out;
+margin: 10px 35px;
+
+}
+.box:hover{
+  box-shadow: 3px 3px 4px 5px rgba(101, 99, 99,0.4);;
+ border: none;
+transform: scale(1.1);
+
+}
+.icon-wapper{
+  padding: 5px;
+  margin: 2px
+}
+.icon-wapper>h2{
+  margin: 2px 0;
+  font-size: 18px;
+  font-weight: 600 !important;
+
+}
+.icon-wapper>h2:hover{
+color: lightgreen;
+
+}
+.icon-wapper>p{
+  margin: 5px 0;
+  font-size: 15px;
+  font-weight: 100 !important;
+
+
+}
+.icon-wapper>i{
+  font-size: 24px;
+  color: lightgreen;
+}
+
+/* tab section style  END */
+/* --------------------------------------------------------------------------------------------------- */
+
+
+/* <!-- ---------------------------------------------  FIVE-th section END  -------------------------------------------------- --> */
+.container{
+  width: 100%;
+}
+.benidrom-spain{
+  padding:0 2%;
+}
+.flex{
+  display: flex;
+}
+.benidrom-spain-left{
+  width: 100%;
+  overflow: hidden;
+}
+.benirom-spain-img{
+  transition: 0.4s;
+}
+.benidrom-spain:hover .benirom-spain-img{
+transform: scale(1.1);
+}
+
+.inside-wrapper{
+  padding: 20px 10px 20px 50px;
+  margin-top: 70px;
+  text-align: left;
+}
+.inside-wrapper>h2{
+  padding: 1px 20px;
+  display: inline;
+
+}
+.inside-wrapper>h2:hover{
+ color: lightgreen;
+
+}
+.inside-wrapper>p{
+  padding: 20px 180px 20px 20px;
+  }
+  .inside-wrapper>.banner-button{
+   margin-left: 20px; 
+   border: 2px solid black;
+   padding: 15px 10px;
+  }
+.benidrom-spain-section-right{
+  border: 1px solid rgb(70, 69, 69,0.6);
+  position: relative;
+
+
+}
+
+.benirom-spain-img{
+  width: 100%;
+  height: 100%;
+}
+.fa-star{
+  color: orange;
+  
+}
+.star-rating{
+padding:5px 10px 0 20px;
+display: block;
+}
+.star-rating>i:nth-child(5){
+  color: rgb(18, 17, 17);
+
+}
+#fullstar{
+    color: orange;
+}
+.customer-review{
+  display: inline;
+  margin-left: 10px;
+  opacity: 0.7;
+}
+.tour-package{
+  background-color: #01b3a7;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 30px;
+  -webkit-clip-path: polygon(100% 0, 100% 100%, 45% 100%, 0 56%, 0 1%);
+clip-path: polygon(100% 0, 100% 100%, 45% 100%, 0 56%, 0 1%);
+}
+
+
+
+
+
+
+
+
+/* <!-- ---------------------------------------------  FIVE-th section END  -------------------------------------------------- --> */
+
+
+/* <!-- ---------------------------------------------  seven-th section END  -------------------------------------------------- --> */
+
+.fluid-container{
+  width: 100%;
+  padding: 0;
+  margin:40px 0; 
+  background-image: url("/images/water-tree.jpg");
+/* position: sticky;   */
+color: white;
+background-repeat: no-repeat;
+
+}
+.content-inside{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 100vh;
+  opacity: 0.9;
+
+  
+}
+.content-inside>h1{
+  font-size: 58px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.content-inside>p{
+  font-size: 58px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.content-inside>button{
+padding: 15px 30px;
+margin: 10px auto;
+
+
+}
+.banner-button:hover{
+  border: 2px solid black;
+}
+
+/* <!-- ---------------------------------------------  seven-th section END  -------------------------------------------------- --> */
+
+/* 
+<!-- ---------------------------------------------  tenth-th section START  -------------------------------------------------- --> */
+.footer{
+  background-color: #162e44;
+  display:flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  color: white;
+
+  padding: 25px 0;
+}
+.footer>div>ul>li:nth-child(1){
+  font-size: 22px;
+  font-weight: 600;
+  padding: 10px 0;
+  flex: 1;
+  color: skyblue;
+
+
+}
+.footer>div>ul>li{
+  padding: 15px 0;
+}
+.footer>div>ul>li>span{
+  color: rgb(212, 210, 210,0.4);
+  padding: 10px 0;
+  display: block;
+
+}
+.footer>div>ul>li>i{
+
+ margin: 0 10px;
+
+}
+.footer>div>ul>li:hover{
+  color: magenta;
+}
+.section-ft-three{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding-right: 200px;
+
+}
+.section-ft-three{
+  position: relative;
+
+}
+.footer-end{
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+}
+
+/* <!-- ---------------------------------------------  tenth-th section START  -------------------------------------------------- --> */
+
+
+
+/* <!-- ---------------------------------------------  FINAL SECTION FOOTER  -------------------------------------------------- --> */
+.privacy-police{
+  display: flex;
+  align-items: center;
+  /* justify-content: space-evenly; */
+  background-color: #11263a !important;
+  color: #979b9e;
+  padding: 20px 20px;
+ 
+  
+}
+.privacy-police>.menulist{
+  background-color: transparent ;
+}
+.privacy-police>.menulist {
+margin: 10px 30px;
+}
+.privacy-police>h5 {
+margin: 10px 140px;
+
+
+}
+.scroll{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+
+}
+#smoothscrool{
+  padding: 10px 20px;
+  /* display: none */
+  background-color: lightgreen;
+}
+#smoothscrool:hover{
+  color: white;
+}
+
+ /* ----------------------------------- neadia query -----------------------  */
